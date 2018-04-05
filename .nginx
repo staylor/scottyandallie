@@ -4,6 +4,9 @@ server {
 	root         /var/www/scottyandallie.com/public_html;
 	access_log   /var/www/scottyandallie.com/logs/access.log;
 	error_log    /var/www/scottyandallie.com/logs/error.log;
+  location /.well-known/acme-challenge/ {
+    try_files $uri /dev/null =404;
+  }
 	location / {
 		rewrite ^ https://scottyandallie.com$request_uri permanent;
 	}
@@ -12,7 +15,9 @@ server {
 server {
 	listen 443;
 	ssl on;
-	server_name  scottyandallie.com *.scottyandallie.com;
+ssl_certificate     /etc/letsencrypt/live/goodbyepicasso.com-0001/fullchain.pem;
+ssl_certificate_key /etc/letsencrypt/live/goodbyepicasso.com-0001/privkey.pem;	
+server_name  scottyandallie.com *.scottyandallie.com;
 	root         /var/www/scottyandallie.com/public_html;
 	access_log   /var/www/scottyandallie.com/logs/ssl.access.log;
 	error_log    /var/www/scottyandallie.com/logs/ssl.error.log;

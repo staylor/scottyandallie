@@ -81,8 +81,8 @@ define ('WPLANG', '');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-error_reporting( -1 );
-define('WP_DEBUG', true);
+//error_reporting( -1 );
+//define('WP_DEBUG', true);
 
 define( 'WP_CONTENT_URL', 'https://' . $_SERVER['HTTP_HOST'] . '/wp-content' );
 define( 'WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content' );

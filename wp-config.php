@@ -14,6 +14,11 @@
  * @package WordPress
  */
 
+if ($_SERVER['HTTP_HOST'] === 'scottyandallie:8080') {                                                                                                                                                          
+	define('WP_HOME', 'http://scottyandallie:8080');                                                                                                                                                            
+	define('WP_SITEURL', 'http://scottyandallie:8080');                                                                                                                                               
+}
+
 //define('WP_CACHE', true);
 define('WP_POST_REVISIONS', false);
 

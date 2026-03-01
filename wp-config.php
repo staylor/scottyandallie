@@ -84,7 +84,7 @@ define ('WPLANG', '');
 //error_reporting( -1 );
 //define('WP_DEBUG', true);
 
-define( 'WP_CONTENT_URL', 'https://' . $_SERVER['HTTP_HOST'] . '/wp-content' );
+define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/wp-content' );
 define( 'WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content' );
 
 

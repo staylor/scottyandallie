@@ -1,0 +1,361 @@
+/*
+Theme Name: Forever
+*/
+
+/* =Reset
+-------------------------------------------------------------- */
+
+caption, th, td {
+	text-align: right;
+}
+
+/* =Structure
+----------------------------------------------- */
+
+.recent-post {
+	float: right;
+}
+
+.recent-post + .recent-post {
+	margin-right: 3.720224719101%;
+	margin-left: auto;
+}
+
+#primary {
+	float: right;
+	margin: 0 0 0 -33.229166666666%;
+}
+
+#content {
+	margin: 0 3.645833333333% 0 38.020833333333%;
+}
+
+#secondary {
+	float: left;
+	margin-left: 3.645833333333%;
+	margin-right: auto;
+}
+
+#supplementary.two .widget-area {
+	float: right;
+	margin-left: 3.7%;
+	margin-right: auto;
+}
+
+#supplementary.three .widget-area {
+	float: right;
+	margin-left: 3.7%;
+	margin-right: auto;
+}
+
+#supplementary.four .widget-area {
+	float: right;
+	margin-left: 3.7%;
+	margin-right: auto;
+}
+
+#supplementary.two #second.widget-area,
+#supplementary.three #third.widget-area,
+#supplementary.four #fourth.widget-area {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+/* Full-width */
+
+/* Alignment */
+.alignright {
+	float: right;
+	margin-left: 1.615em;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+	margin-right: 1.615em;
+	margin-left: auto;
+}
+
+/* =Global
+----------------------------------------------- */
+
+/* Headings */
+
+/* Text elements */
+
+ul, ol {
+	margin: 0 3.23em 1.615em 0;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+	margin-right: 1.615em;
+	margin-left: auto;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background: -webkit-gradient(linear, right top, right bottom, color-stop(0%,#f5f5f5), color-stop(100%,#e4e4e4));
+}
+
+button:focus,
+html input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+html input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	background: -webkit-gradient(linear, right top, right bottom, color-stop(0%,#eeeeee), color-stop(100%,#dadada));
+}
+
+textarea {
+	padding-right: 3px;
+	padding-left: 0;
+}
+
+/* Links */
+
+/* Text meant only for screen readers */
+
+/* =Header
+----------------------------------------------- */
+
+/* =Menu
+----------------------------------------------- */
+
+#access {
+	float: right;
+}
+
+#access ul {
+	clear: right;
+	float: left;
+	padding-right: 0;
+	left: 50%;
+	right: auto;
+	padding-left: 0;
+}
+
+#access li {
+	float: right;
+	right: 50%;
+	left: auto;
+}
+
+#access ul ul {
+	float: right;
+	left: auto;
+	right: 10px;
+}
+
+#access ul ul ul {
+	right: 110px;
+	left: auto;
+}
+
+#access ul ul li {
+	right: auto;
+	text-align: right;
+	left: auto;
+}
+
+/* =Content
+----------------------------------------------- */
+/* Featured posts */
+
+.feature-title a {
+	right: 2px;
+	left: auto;
+}
+
+/* Featured post controls */
+
+#feature-slider ul {
+	float: right;
+	right: 50%;
+	left: auto;
+}
+
+#feature-slider li {
+	float: right;
+	left: 50%;
+	right: auto;
+}
+
+/* Tagline */
+
+/* Latest posts */
+
+/* Main content */
+
+#main {
+	float: right;
+}
+.entry-title {
+	margin-right:0;
+	margin-left: 70px;
+}
+.comments-link {
+	left: 0;
+	right: auto;
+}
+
+.comments-link a:before {
+	right: .3em;
+	left: auto;
+}
+
+.entry-thumb {
+	float: right;
+	margin: 0 0 1.615em 1.615em;
+}
+
+/* Image Posts */
+
+.indexed .format-image .feature-image {
+	float: right;
+}
+
+.indexed .format-image .comments-link {
+	left: 1.615em;
+	right: auto;
+}
+
+/* 404 */
+
+.error404 .post {
+	float: right;
+}
+
+.error404 .post .widget {
+	float: right;
+	margin-left: 3.7%;
+	margin-right: auto;
+}
+
+.error404 .post .widget_archive {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.error404 .post .widget_tag_cloud {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+/* Image attachments */
+
+.image-attachment .next-image {
+	padding-right: 1em;
+	padding-left: 0;
+}
+
+/* =Media
+----------------------------------------------- */
+
+/* Make sure embeds and iframes fit their containers */
+
+/* =Navigation
+-------------------------------------------------------------- */
+
+#content nav .nav-previous {
+	float: right;
+}
+
+#content nav .nav-next {
+	float: left;
+	text-align: left;
+}
+
+/* =Comments
+----------------------------------------------- */
+
+li.comment {
+	padding: 0 5.5em 1.615em 0;
+}
+
+#comments .avatar {
+	right: 0;
+	left: auto;
+}
+
+/* Threaded comments */
+
+.children li.comment {
+	padding: 0 3.23em 1.615em 0;
+}
+
+/* Comment form */
+
+#respond input[type="text"] {
+	float: right;
+	margin-left: .5em;
+	margin-right: auto;
+}
+
+/* =Widgets
+----------------------------------------------- */
+
+#secondary {
+	border-right: 1px solid #eee;
+	border-left: none;
+}
+
+#secondary .widget {
+	padding-right: 7.042253521127%;
+	padding-left: 0;
+}
+
+#secondary .widget-title {
+	margin: 0 -7.042253521127% 0.6075em 0;
+	padding: 0 7.042253521127% 0.8075em 0;
+}
+
+#secondary .widget > ul {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+#secondary .widget > ul li {
+	margin-right: -7.042253521127%;
+	padding: .4em 7.042253521127% .4em 0;
+	margin-left: auto;
+}
+
+/* Calendar Widget */
+td#next {
+	text-align: left;
+}
+
+
+/* =Footer
+----------------------------------------------- */
+
+#latest-message.format-status .avatar {
+	right: 0;
+	left: auto;
+}
+
+#latest-message.format-status .message-content {
+	margin: 0 5.5em 0 0;
+}
+
+#latest-message.format-quote blockquote {
+	margin: 0 5.5em 0 3.23em;
+}
+
+#latest-message.format-quote blockquote:before {
+	right: 0;
+	left: auto;
+}
+
+#supplementary .widget > ul {
+	margin-right: 1em;
+	margin-left: auto;
+}
+
+/* =WP.com
+----------------------------------------------- */
+

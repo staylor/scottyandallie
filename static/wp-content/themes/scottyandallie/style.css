@@ -1,0 +1,370 @@
+/*
+Theme Name: Scotty and Allie
+Description: Child Theme of Forever
+Version: 0.1
+Author: Scott Taylor
+Template: forever
+*/
+
+@import "forever.css";
+
+body {
+	font-family: 'mathleteskinny', Georgia, serif;
+	color: #0c3d4d;
+	background: url(/wp-content/themes/scottyandallie/images/bg.jpg) top center;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding: 0;
+}
+
+b, strong {
+	letter-spacing: 3px;
+	font-family: 'mathletebulky', Georgia, serif;
+}
+
+#gradientbg {
+	background: url(/wp-content/themes/scottyandallie/images/gradient-bg.jpg) top center repeat-x fixed;
+}
+
+#main {
+	padding-top: 0.8em;
+}
+
+#mainbg {
+	background: url(/wp-content/themes/scottyandallie/images/mainbg.jpg) top center repeat-x fixed;
+}
+
+#page {
+	max-width: 100%;
+	background: transparent;
+}
+
+#site-title {
+	letter-spacing: 3px;
+	font-family: 'mathletebulky', Times New Roman, Times, serif;
+}
+
+#site-title a {
+	color: #fff;
+	text-shadow: 3px 3px #000;
+}
+
+#access {
+	border: 1px solid #fff;
+	border-width: 1px 0;
+}
+
+#access li {
+	font-size: 32px;
+	font-size: 3.2rem;
+	letter-spacing: 1px;
+}
+
+#access a, .entry-title a {
+	letter-spacing: 1px;
+	font-family: 'mathletebulky', Times New Roman, Times, serif;
+	color: #fff;
+}
+
+#access li.current_page_item a, #access li.current-menu-item a {
+	background: rgba(255, 255, 255, 0.9);
+	color: #000;
+}
+
+#access ul ul a {
+	font-size: 21px;
+	font-size: 2.1rem;
+}
+
+#site-description {
+	color: #fff;
+	font-size: 48px;
+	font-size: 4.8rem;
+	letter-spacing: 3px;
+	font-family: 'mathletebulky', Times New Roman, Times, serif;
+	border-bottom: 1px solid #fff;
+}
+
+.is-countdown {
+	background: #fff;
+	background: rgba(255, 255, 255, 0.1);
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	letter-spacing: 1px;
+	border: 0;
+	font-size: 32px;
+	font-size: 3.2rem;
+	line-height: 1;
+}
+
+#content {
+	color: #fff;
+	font-size: 25px;
+	font-size: 2.5rem;
+	line-height: 1.5;
+	width: 100%;
+}
+
+h1 {
+	letter-spacing: 3px;
+	font-size: 55px;
+	font-size: 5.5rem;
+}
+
+p {
+	font-family: 'pompiere_regular';
+	margin-bottom: 0.8em;
+}
+
+li {
+        font-family: 'pompiere_regular';
+}
+
+p * {
+	font-family: 'pompiere_regular';
+}
+
+li.comment {
+	padding: 0 0 0.8em 5.5em;
+}
+
+.commentlist {
+	margin: 0.8em 0;
+}
+
+.entry-content, .entry-summary {
+	margin: 0.6em 0 0;
+}
+
+.entry-header .entry-meta {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer.entry-meta {
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#secondary {
+	border-left: 1px solid rgba(255, 255, 255, 0.1);
+	margin-right: 0;
+	width: 33%;
+}
+
+#secondary .widget-title {
+	font-family: 'mathletebulky', Times New Roman, Times, serif;
+	color: #fff;
+	font-size: 32px;
+	font-size: 3.2rem;
+	margin-left: 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.comments-link {
+	display: none;
+}
+
+.home #page {
+	padding-top: 10px;
+}
+
+.home #masthead {
+	padding: 0;
+}
+
+.home #access {
+	margin: 0 auto;
+}
+
+.home #site-title {
+	font-size: 96px;
+	font-size: 9.6rem;
+	line-height: 1.2;
+}
+
+.home #site-description {
+	padding-bottom: 0.5em;
+}
+
+#home-gallery {
+	position: relative;
+	box-sizing: border-box;
+	max-width: 100%;
+	width: 800px;
+	display: block;
+	padding: 20px;
+	margin: 0 auto;
+	border: 3px double rgba(12, 61, 77, 1);
+}
+
+#home-gallery div {
+	max-width: 100%;
+	display: block;
+	box-shadow: 20px 20px 85px 85px rgba(12, 61, 77, 0.25) inset,
+		-20px -20px 85px 85px rgba(12, 61, 77, 0.25) inset;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+	z-index: 2;
+}
+
+#home-gallery img {
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	display: block;
+	z-index: 1;
+}
+
+#colophon {
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 0 0 10px 10px;
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	letter-spacing: 1px;
+	font-size: 32px;
+	font-size: 3.2rem;
+	margin: 0 -1px -1px;
+}
+#colophon a {
+	color: #fff;
+}
+
+#site-info {
+	padding: 0.5em;
+}
+
+.hentry {
+	margin: 0 0 0.8em;
+}
+
+ul#pretty-pinterest-pins-widget li.pretty-pinterest-pin {
+	padding: 0 !important;
+	margin-bottom: 20px !important;
+}
+
+ul#pretty-pinterest-pins-widget li.pretty-pinterest-pin div.pretty-pinterest-image {
+	width: 100% !important;
+	margin: 0 !important;
+}
+
+ul#pretty-pinterest-pins-widget li.pretty-pinterest-pin span {
+	padding: 5px 10px !important;
+}
+
+ul#pretty-pinterest-pins-widget li.pretty-pinterest-pin span p {
+	font-size: 24px;
+	font-size: 2.4rem;
+	line-height: 1.2 !important;
+	word-wrap: break-word;
+	color: #333;
+	letter-spacing: 1px;
+}
+
+ul#pretty-pinterest-pins-widget li.pretty-pinterest-pin div.pretty-pinterest-image img {
+	width: auto !important;
+	max-width: 100% !important;
+}
+
+ul#pretty-pinterest-pins-widget li.pretty-pinterest-pin,
+ul#pretty-pinterest-pins-widget li.pretty-pinterest-follow-me {
+	width: auto;
+	max-width: 300px;
+	margin: 0 auto 10px !important;
+}
+
+.clear {
+	clear: both;
+}
+
+.wedding-party-column {
+	float: left;
+	width: 45%;
+}
+
+.wedding-party-column:nth-of-type(even) {
+	float: right;
+}
+
+.post-type-archive-wedding_party .hentry {
+	margin: 0 0 1em;
+}
+
+#page {
+	width: 1020px;
+}
+
+#content {
+	max-width: 92.5%;
+	margin: 0 3.645833333333%;
+}
+
+.post-type-archive-wedding_party #content {
+	margin-left: 3%;
+}
+
+.post-type-archive-wedding_party .entry-title {
+	margin-right: 0;
+}
+
+.post-type-archive-wedding_party #content p {
+	font-size: 22px;
+	font-size: 2.2rem;
+}
+
+.entry-thumb {
+	margin: 0 1em 0 0;
+}
+
+#primary {
+	float: none;
+	margin: 0;
+	width: 100%;
+}
+
+@media only screen and (max-width : 880px) {
+	#primary, #secondary {
+		float: none;
+		width: 92%;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	.home #site-title {
+		font-size: 56px;
+		font-size: 5.6rem;
+		line-height: 1;
+		margin-bottom: 20px;
+	}
+
+	#site-description {
+		font-size: 36px;
+		font-size: 3.6rem;
+		padding: 0 0.5em 2em;
+	}
+
+	#access li {
+		width: auto;
+		margin: 5px 10px 5px 30px;
+		font-size: 30px;
+		font-size: 3rem;
+	}
+
+	#access a {
+		margin: 0;
+		padding: 1px 6px;
+		line-height: 1;
+	}
+
+	#primary, #secondary {
+		float: none;
+		width: 92%;
+	}
+
+	.post-type-archive-wedding_party .entry-title {
+		font-size: 40px;
+		font-size: 4rem;
+		margin-right: 0;
+	}
+}
